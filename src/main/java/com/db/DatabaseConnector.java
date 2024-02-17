@@ -35,6 +35,6 @@ public class DatabaseConnector {
     }
 
     public static void main(String[] args) {
-        createNewDatabaseWithTable("database/inventory.db");
+        createNewDatabaseWithTable("inventory.db");
     }
 }
