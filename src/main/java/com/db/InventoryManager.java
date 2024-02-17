@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 public class InventoryManager {
     private Connection connect() {
-        String url = "jdbc:sqlite:database/inventory.db";
+        String url = "jdbc:sqlite:inventory.db";
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
