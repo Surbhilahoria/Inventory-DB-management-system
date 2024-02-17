@@ -7,7 +7,7 @@ public class Main {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        DatabaseConnector.createNewDatabaseWithTable("database/inventory.db");
+        DatabaseConnector.createNewDatabaseWithTable("inventory.db");
         while (true) {
             System.out.println("\nInventory Management System");
             System.out.println("1. Add Item");
